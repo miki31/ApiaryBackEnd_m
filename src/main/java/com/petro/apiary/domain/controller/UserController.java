@@ -41,7 +41,7 @@ public class UserController {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }else {
             if (user.getCreateDate() == null){
-                user.setCreateDate(LocalDate.now());
+                user.setCreateDate(LocalDate.now()) ;
             }
             return new ResponseEntity<>(userRepository.save(user),HttpStatus.OK);
         }
