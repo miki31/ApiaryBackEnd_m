@@ -1,4 +1,4 @@
-package domain.exception;
+package com.petro.apiary.domain.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,4 +1,4 @@
-CREATE TABLE `petro_apiary_db`.`user` (
+CREATE TABLE -`petro_apiary_db`.`user` (
   `usr_id` INT NOT NULL AUTO_INCREMENT,
   `usr_login` VARCHAR(45) NOT NULL,
   `usr_password` VARCHAR(45) NOT NULL,

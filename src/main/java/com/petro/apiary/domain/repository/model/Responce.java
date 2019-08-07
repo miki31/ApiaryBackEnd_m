@@ -1,4 +1,4 @@
-package domain.repository.model;
+package com.petro.apiary.domain.repository.model;
 
 public class Responce {
 

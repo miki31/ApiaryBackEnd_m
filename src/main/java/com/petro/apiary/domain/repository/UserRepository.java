@@ -1,6 +1,6 @@
-package domain.repository;
+package com.petro.apiary.domain.repository;
 
-import domain.repository.model.User;
+import com.petro.apiary.domain.repository.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

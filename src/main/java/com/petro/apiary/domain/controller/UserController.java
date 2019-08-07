@@ -1,15 +1,14 @@
-package domain.controller;
+package com.petro.apiary.domain.controller;
 
-import domain.exception.UserNotFoundException;
-import domain.repository.UserRepository;
-import domain.repository.model.Responce;
-import domain.repository.model.User;
-import domain.repository.repositoryImpl.UserCustomRepositoryImpl;
+import com.petro.apiary.domain.exception.UserNotFoundException;
+import com.petro.apiary.domain.repository.UserRepository;
+import com.petro.apiary.domain.repository.model.Responce;
+import com.petro.apiary.domain.repository.model.User;
+import com.petro.apiary.domain.repository.repositoryImpl.UserCustomRepositoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.List;
 
 @RestController
