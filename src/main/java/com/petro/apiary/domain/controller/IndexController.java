@@ -11,6 +11,6 @@ public class IndexController {
     @GetMapping
     public String sayHello() {
         return "Rest Service is now available    " +
-                "IT`S WORKING test";
+                "IT`S WORKING test test";
     }
 }
